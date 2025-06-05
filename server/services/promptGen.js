@@ -4,6 +4,7 @@ function createPrompt(message) {
   TASK: Create a professional landing page section based on this description: "${message}"
   
   REQUIREMENTS:
+  - Try to make 2-3 sections of the topic , if possible add a roadmap like structure also , and a pricing structure
   - Modern, clean design with current web standards
   - Fully responsive (mobile-first approach)
   - Semantic HTML5 structure

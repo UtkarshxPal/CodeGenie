@@ -11,10 +11,9 @@ import {
   X,
 } from "lucide-react";
 
-// Placeholder GenAI API call
 async function generateCode(prompt) {
   try {
-    const res = await fetch("http://localhost:3000/chat", {
+    const res = await fetch("https://codegenie-ntsg.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
